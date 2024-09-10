@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
 
         <p><label for="inome">Nome:</label>
              <input type="text" name="nome" id="inome"></p>
@@ -18,5 +18,9 @@
         <p><input type="submit" value="Enviar"></p>
         
     </form>
+    <!--
+    Método GET (padrão): dados aparecem na URL [não pode ultrapasssar 3000 bytes]
+    Método POST: esconde os dados na URL (envio de arquivos e dados sensíveis)
+    -->
 </body>
 </html>
