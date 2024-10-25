@@ -3,11 +3,16 @@
     margin: 0;
     padding: 0;
 }
+
+html, body {
+    min-height: 100vh;
+    background-color: aliceblue;
+}
 header {
     height: 40vh;
     background-color: black;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
@@ -15,9 +20,7 @@ header {
 #titulo {
     color: white;
     font-size: 70px;
-}
-#subtit {
-    color: white;
+    font-variant: small-caps;
 }
 h4 {
     color: white;
@@ -32,7 +35,7 @@ h4 {
 }
 .verso {
     font-size: 24px;
-    padding: 6px;
+    line-height: 1.6em;
     margin-left: 8vw;
 }
 
@@ -47,6 +50,11 @@ h4 {
     
 }
 
+#cordel2 > p {
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 400px;
+}
+
 #cordel3 {
     height: 800px;
     display: flex;
@@ -56,6 +64,7 @@ h4 {
 
 #cordel4 {
     height: 600px;
+    color: white;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -64,9 +73,9 @@ h4 {
 
 }
 
-.efeito2 {
-    background-color: rgb(172, 164, 164);
-    width: fit-content;
+#cordel4 > p {
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 400px;
 }
 
 #cordel5 {
@@ -81,4 +90,15 @@ h4 {
     color: azure;
     font-size: 25px;
     text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
