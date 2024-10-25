@@ -4,10 +4,21 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', sans-serif;
+    --font3: 'Sriracha', cursive;
+}
+
 html, body {
     min-height: 100vh;
     background-color: aliceblue;
+    font-family: var(--font1);
 }
+
 header {
     height: 40vh;
     background-color: black;
@@ -19,11 +30,15 @@ header {
 
 #titulo {
     color: white;
-    font-size: 70px;
+    font-size: 8.5vw;
     font-variant: small-caps;
+    font-family: var(--font2);
 }
 h4 {
     color: white;
+}
+.allcordel {
+    font-family: var(--font3);
 }
 
 
@@ -43,16 +58,19 @@ h4 {
     background-image: url(../Cordel/imagens/background001.jpg);
     height: 500px;
     background-size: cover;
+    background-position: right center;
     color: white;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
     
 }
 
 #cordel2 > p {
-    background-color: rgba(0, 0, 0, 0.315);
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 50vw;
 }
 
 #cordel3 {
@@ -70,12 +88,15 @@ h4 {
     justify-content: center;
     background-image: url(../Cordel/imagens/background002.jpg);
     background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.418);
 
 }
 
 #cordel4 > p {
-    background-color: rgba(0, 0, 0, 0.315);
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 50vw;
 }
 
 #cordel5 {
