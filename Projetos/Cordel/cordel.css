@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    color: white;
+    font-size: 70px;
+}
+#subtit {
+    color: white;
+}
+h4 {
+    color: white;
+}
+
+
+#cordel1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 500px;
+}
+.verso {
+    font-size: 24px;
+    padding: 6px;
+    margin-left: 8vw;
+}
+
+#cordel2 {
+    background-image: url(../Cordel/imagens/background001.jpg);
+    height: 500px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+}
+
+#cordel3 {
+    height: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#cordel4 {
+    height: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-image: url(../Cordel/imagens/background002.jpg);
+    background-size: cover;
+
+}
+
+.efeito2 {
+    background-color: rgb(172, 164, 164);
+    width: fit-content;
+}
+
+#cordel5 {
+    height: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#footer {
+    background-color: black;
+    color: azure;
+    font-size: 25px;
+    text-align: center;
+}
